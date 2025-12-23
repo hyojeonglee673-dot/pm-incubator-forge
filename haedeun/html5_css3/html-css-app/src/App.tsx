@@ -41,6 +41,19 @@ function App() {
           <li>리스트3</li>
           <li>리스트4</li>
         </ol>
+
+        {/* tailwindss 같은 편리한 녀석들이 존재함 */}
+        {/* html / css를 알고 쓰는 것과 차이가 있긴함 */}
+        <div className="box">
+          <h2>CSS 속성 적용</h2>
+          <p>CSS는 HTML요소를 스타일링 하기 위한 목적으로 사용</p>
+          
+          {/* a href의 경우엔 하이퍼링크를 거는 부분 */}
+          {/* 그렇기 때문에 'HTML/CSS 학습 사이트'를 누르면 해당 사이트로 이동함 */}
+          <a href='https://www.w3schools.com/' target= " _balnk">
+          HTML / CSS 학습 사이트
+          </a>
+        </div>
       </div>
     </>
   )

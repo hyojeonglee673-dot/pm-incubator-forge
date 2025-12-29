@@ -7,6 +7,13 @@ export const VariableAndDataType = () => {
     let sixthMap = { key: "value" };
     let seventhArray = [1, 2, 3];
 
+    // 변수 작성법
+    // 1. 맨 앞에 let, const, var 키워드 작성
+    // 2. 변수 이름 작성 (camelCase 권장)
+    // 3. 등호(=) 작성
+    // 4. 값 작성
+    // 5. 세미콜론(;) 작성 (생략 가능)
+
     return (
         <div>
             <h3>javascript 변수와 데이터 타입</h3>
@@ -25,3 +32,6 @@ let seventhArray = [${seventhArray}] // 배열 타입 (Array)
         </div>
     )
 }
+
+// JSON.stringify(변수이름) 형태로 작성하면
+// 해당 변수 이름이 Object라는 전제하에 Object 내부의 내용을 출력하게 됩니다.

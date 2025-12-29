@@ -1,5 +1,6 @@
 import './App.css'
 import { VariableAndDataType } from './data_type/VariableAndDataType'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { CalCulationExample } from './math_operation/CalculationExample' 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             지저분해지는 상황 막기 가능 */}
         <CalCulationExample/>
         <VariableAndDataType/>
+        <LogicalOperationExample/>
         </div>
     </>
   )

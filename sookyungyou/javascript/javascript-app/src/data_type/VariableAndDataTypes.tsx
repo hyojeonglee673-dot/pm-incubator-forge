@@ -52,4 +52,4 @@ let seventhArray = ${seventhArray}                // Array 타입 (배열 타입
 } 
 
 // JSON.stringify(변수이름) 형태로 작성하면
-// 해당변수 이름이 object ~
+// 해당변수 이름이 object 라는 전제하에 Object 내부의 내용을 출력하게 됩니다.

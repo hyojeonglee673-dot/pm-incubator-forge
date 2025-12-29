@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -15,6 +16,8 @@ function App() {
         <CalculationExample/>
         <br />
         <VariableAndDataTypes/>
+        <br />
+        <LogicalOperationExample/>
       </div>
     </>
   )

@@ -1,5 +1,8 @@
 import './App.css'
 import {CalculationExample} from './math_operation/CalculationExample'
+import  {VariableAndDataTypes} from './data_type/VariableAndDataTypes'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+
 
 function App() {
 
@@ -11,6 +14,10 @@ function App() {
         {/* 이와 같은 형태로 직접 커스텀 태그를 만들면 지저분 해지는 상황을 방지 */}
         {/* 관심사의 분리를 달성할 수 있음 */}
         <CalculationExample/>
+        <VariableAndDataTypes/>
+        <LogicalOperationExample/>
+      
+
       </div>
     </>
   )

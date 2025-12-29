@@ -1,5 +1,6 @@
 import './App.css'
 import { VariableAndDataTypes } from './data_type/VariableAndDataTypes'
+import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
 import { CalculationExample } from './math_operation/CalculationExample'
 
 function App() {
@@ -13,6 +14,9 @@ function App() {
         {/* 관심사의 분리를 달성할 수 있음 - 원하는 기능이 있는 태그만 볼 수 있다. */}
         <CalculationExample />
         <VariableAndDataTypes />
+        
+        {/* 논리 연산자 예제 */}
+        <LogicalOperationExample />
       </div>
     </>
   )

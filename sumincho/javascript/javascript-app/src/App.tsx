@@ -14,6 +14,7 @@ function App() {
         {/* 관심사의 분리를 달성할 수 있음 */}
         <CalculationExample/>
         <VariableAndDataTypes/>
+        <LogicalOperationExample/>
       </div>
     </>
   )

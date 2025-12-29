@@ -21,6 +21,8 @@ export const VariableAndDataTypes = () => {
     // 아래와 같은 변수명을 볼 수 있습니다.
     // let fsdfh = 100; <- 모든 코드가 이런 형태로 되어 있습니다.
     // 보는 순간 정신을 잃어버리게 것이죠.
+    // export const VADT = () => { 블라 블라 블라 }
+    // VADT가 뭐지?????
 
     // Map 형식
     // 사물함 열쇠 <- key
@@ -43,7 +45,7 @@ export const VariableAndDataTypes = () => {
 let firstNumber = ${firstNumber}    // 숫자 타입(Number)
 const secondConstant = ${secondConstant}   // 문자열 타입(String)
 var thirdBoolean = ${thirdBoolean}   // 참/거짓(Boolean)
-let fourthNull = ${fifthUndefined}   // Null 타입
+let fourthNull = ${fourthNull}   // Null 타입
 let fifthUnderfined = ${fifthUndefined}   // Undefined 타입
 let sixthMap = ${sixthMap}   // Object 타입이고 Map 형식
 let sixthMapJsonify = ${JSON.stringify(sixthMap)}   // Object 타입 해석

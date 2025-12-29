@@ -30,3 +30,4 @@ let seventhArray = ${seventhArray} // 배열 타입(Array)
     </div>
     )
 }
+

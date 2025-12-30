@@ -4,7 +4,7 @@ export const ControlFlowFor = () => {
     let loopResultArray = []
     // 대괄호는 배열
     //  배열은 여러개의 정보를 한공간에 닮음
-    for( let i =1; 1<3; i++){
+    for( let i =1; i<=3; i++){
         loopResultArray.push(i)
     }
 

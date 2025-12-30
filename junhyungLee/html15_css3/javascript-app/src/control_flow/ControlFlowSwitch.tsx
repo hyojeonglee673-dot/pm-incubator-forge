@@ -1,5 +1,14 @@
 
 export const ControlFlowSwitch = () => {
+     // Math.random()의 경우 0 <= random 값 < 1
+
+     // 0 <= random <= 0.99999999999999999
+     // 0 <= random < 1 <= *5.3
+     // 0 <= random <= 5.xxx
+     // 1 <= random <= 6.xxx
+     // math.floor() 는 소수점을 버림 (바닥 함수)
+     // 1,2,3,4,5,6
+     // 1(SSS), 2(SS), 3(S), 4(B), 5(A), 6(심해)
      let grade = Math.floor(Math.random() * 5) + 1
      let gradeName
 

@@ -2,10 +2,10 @@
 export const SecondProblem = () => {
     let loopResultArray = []
     let summation = 0
-
+    let i,j;
  
-    for(let i = 3, j =0; j<=4; i+=3,j++){
-        // let i = 3, j =0; i<=15; i+=3,j++
+    for(i = 3, j = 0; j<=4; i+=3,j++){
+        // i = 3, j =0; i<=15; i+=3,j++
         loopResultArray.push(i)
         summation +=loopResultArray[j]
     }

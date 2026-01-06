@@ -2,6 +2,7 @@ import './App.css'
 import { VariableAndDataType } from './data_type/VariableAndDataType'
 import { CalculationExample } from './math_operation/CalculationExample'
 import { LogicalOperationExample } from './logical_operation/LogicalOperationExample'
+import { ControlFlowIf } from './control_flow/ControlFlowIf.tsx'
 
 function App() {
  
@@ -16,6 +17,7 @@ function App() {
         <CalculationExample/>
         <VariableAndDataType/>
         <LogicalOperationExample/>
+        <ControlFlowIf/>
       </div>
     </>
   )
